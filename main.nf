@@ -52,7 +52,7 @@ process IMPORT {
 
 process ITSXPRESS {
     tag "Trim ITS region from ${sample_id}"
-    container "itsxpress"
+    container "andrewatmp/itsxpress"
 
     input:
     tuple val(sample_id), path(reads)
