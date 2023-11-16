@@ -4,7 +4,7 @@ params.refseqs = "$projectDir/unite.qza"
 params.reftax =  "$projectDir/unite-taxonomy.qza"
 params.maxaccepts = 1
 params.artifacts = "$projectDir/artifacts"
-params.outdir = "$projectDir/results"
+params.outdir = "s3://mp-bioinfo/scratch/results"
 params.logo = "$projectDir/assets/logo.png"
 params.input = "$projectDir/samples.csv"
 
