@@ -1,0 +1,17 @@
+[2023-10-24 11:45:02,783] multiqc                                            [DEBUG  ]  This is MultiQC v1.13
+[2023-10-24 11:45:02,784] multiqc                                            [DEBUG  ]  Command used: /home/asum/miniconda3/envs/bioinfo/bin/multiqc .
+[2023-10-24 11:45:03,679] multiqc                                            [WARNING]  MultiQC Version v1.16 now available!
+[2023-10-24 11:45:03,679] multiqc                                            [DEBUG  ]  Working dir : /home/asum/illumina_nextflow/qc
+[2023-10-24 11:45:03,680] multiqc                                            [DEBUG  ]  Template    : default
+[2023-10-24 11:45:03,680] multiqc                                            [DEBUG  ]  Running Python 3.8.13 | packaged by conda-forge | (default, Mar 25 2022, 06:04:18)  [GCC 10.3.0]
+[2023-10-24 11:45:03,681] multiqc                                            [DEBUG  ]  Analysing modules: custom_content, ccs, ngsderive, purple, conpair, lima, peddy, somalier, methylQA, mosdepth, phantompeakqualtools, qualimap, preseq, quast, qorts, rna_seqc, rockhopper, rsem, rseqc, busco, bustools, goleft_indexcov, gffcompare, disambiguate, supernova, deeptools, sargasso, verifybamid, mirtrace, happy, mirtop, sambamba, homer, hops, macs2, theta2, snpeff, gatk, htseq, bcftools, featureCounts, fgbio, dragen, dedup, pbmarkdup, damageprofiler, biobambam2, jcvi, mtnucratio, picard, vep, sentieon, prokka, qc3C, nanostat, samblaster, samtools, sexdeterrmine, eigenstratdatabasetools, bamtools, jellyfish, vcftools, longranger, stacks, varscan2, snippy, bbmap, bismark, biscuit, hicexplorer, hicup, hicpro, salmon, kallisto, slamdunk, star, hisat2, tophat, bowtie2, bowtie1, snpsplit, odgi, pangolin, kat, leehom, adapterRemoval, clipandmerge, cutadapt, flexbar, kaiju, kraken, malt, trimmomatic, sickle, skewer, sortmerna, biobloomtools, fastq_screen, afterqc, fastp, fastqc, pychopper, pycoqc, minionqc, multivcfanalyzer, clusterflow, checkqc, bcl2fastq, bclconvert, interop, ivar, flash, seqyclean, optitype, whatshap
+[2023-10-24 11:45:03,683] multiqc                                            [DEBUG  ]  Using temporary directory for creating report: /tmp/tmprtnrpqe4
+[2023-10-24 11:45:04,231] multiqc                                            [INFO   ]  Search path : /home/asum/illumina_nextflow/qc
+[2023-10-24 11:45:05,696] multiqc                                            [DEBUG  ]  Summary of files that were skipped by the search: [skipped_module_specific_max_filesize: 48] // [skipped_no_match: 8] // [skipped_ignore_pattern: 4]
+[2023-10-24 11:45:05,810] multiqc                                            [DEBUG  ]  No samples found: custom_content
+[2023-10-24 11:45:05,944] multiqc.modules.fastqc.fastqc                      [INFO   ]  Found 4 reports
+[2023-10-24 11:45:06,149] multiqc                                            [INFO   ]  Compressing plot data
+[2023-10-24 11:45:06,273] multiqc                                            [INFO   ]  Report      : multiqc_report.html
+[2023-10-24 11:45:06,273] multiqc                                            [INFO   ]  Data        : multiqc_data
+[2023-10-24 11:45:06,273] multiqc                                            [DEBUG  ]  Moving data file from '/tmp/tmprtnrpqe4/multiqc_data' to '/home/asum/illumina_nextflow/qc/multiqc_data'
+[2023-10-24 11:45:06,513] multiqc                                            [INFO   ]  MultiQC complete

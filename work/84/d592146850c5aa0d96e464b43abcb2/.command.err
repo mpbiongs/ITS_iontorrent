@@ -1,0 +1,33 @@
+Loading required package: Rcpp
+The filter removed all reads: /tmp/tmpkk6643cb/F2-16s_T1_trimmed_L001_R1_001.fastq.gz not written.
+Error: No reads passed the filter (was truncLen longer than the read length?)
+Traceback (most recent call last):
+  File "/opt/conda/envs/qiime2-2023.5/lib/python3.8/site-packages/q2_dada2/_denoise.py", line 220, in _denoise_single
+    run_commands([cmd])
+  File "/opt/conda/envs/qiime2-2023.5/lib/python3.8/site-packages/q2_dada2/_denoise.py", line 36, in run_commands
+    subprocess.run(cmd, check=True)
+  File "/opt/conda/envs/qiime2-2023.5/lib/python3.8/subprocess.py", line 516, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['run_dada.R', '--input_directory', '/tmp/qiime2/asum/data/4dcb501b-3f48-4f5b-8050-5a5d7c35934c/data', '--output_path', '/tmp/tmpkk6643cb/output.tsv.biom', '--output_track', '/tmp/tmpkk6643cb/track.tsv', '--filtered_directory', '/tmp/tmpkk6643cb', '--truncation_length', '450', '--trim_left', '15', '--max_expected_errors', '1', '--truncation_quality_score', '3', '--max_length', 'Inf', '--pooling_method', 'independent', '--chimera_method', 'consensus', '--min_parental_fold', '1.0', '--allow_one_off', 'False', '--num_threads', '1', '--learn_min_reads', '250000', '--homopolymer_gap_penalty', '1', '--band_size', '32']' returned non-zero exit status 2.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/conda/envs/qiime2-2023.5/lib/python3.8/site-packages/q2cli/commands.py", line 468, in __call__
+    results = action(**arguments)
+  File "<decorator-gen-75>", line 2, in denoise_pyro
+  File "/opt/conda/envs/qiime2-2023.5/lib/python3.8/site-packages/qiime2/sdk/action.py", line 274, in bound_callable
+    outputs = self._callable_executor_(
+  File "/opt/conda/envs/qiime2-2023.5/lib/python3.8/site-packages/qiime2/sdk/action.py", line 509, in _callable_executor_
+    output_views = self._callable(**view_args)
+  File "/opt/conda/envs/qiime2-2023.5/lib/python3.8/site-packages/q2_dada2/_denoise.py", line 367, in denoise_pyro
+    return _denoise_single(
+  File "/opt/conda/envs/qiime2-2023.5/lib/python3.8/site-packages/q2_dada2/_denoise.py", line 223, in _denoise_single
+    raise ValueError(
+ValueError: No reads passed the filter. trunc_len (450) may be longer than read lengths, or other arguments (such as max_ee or trunc_q) may be preventing reads from passing the filter.
+
+Plugin error from dada2:
+
+  No reads passed the filter. trunc_len (450) may be longer than read lengths, or other arguments (such as max_ee or trunc_q) may be preventing reads from passing the filter.
+
+See above for debug info.

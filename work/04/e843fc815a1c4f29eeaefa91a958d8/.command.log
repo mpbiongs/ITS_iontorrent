@@ -1,0 +1,23 @@
+2023-11-15 04:05:23,258: INFO     Verifying the input sequences.
+2023-11-15 04:05:23,973: INFO     Sequences are assumed to be single-end.
+2023-11-15 04:05:23,975: INFO     Temporary directory is: /tmp/itsxpress_a9mxi73v
+2023-11-15 04:05:23,975: INFO     Unique sequences are being written to a temporary FASTA file with Vsearch.
+2023-11-15 04:05:24,085: INFO     WARNING: The derep_fulllength command does not support multithreading.
+Only 1 thread used.
+vsearch v2.15.2_linux_x86_64, 7.7GB RAM, 8 cores
+https://github.com/torognes/vsearch
+
+Dereplicating file F1-16s_T1_L001_R1_001.fastq.gz 100%
+3119345 nt in 9996 seqs, min 33, max 406, avg 312
+minseqlength 32: 4 sequences discarded.
+Sorting 100%
+6254 unique sequences, avg cluster 1.6, median 1, max 347
+Writing output file 100%
+Writing uc file, first part 100%
+Writing uc file, second part 100%
+
+2023-11-15 04:05:24,085: INFO     Searching for ITS start and stop sites using HMMSearch. This step takes a while.
+2023-11-15 04:06:50,265: INFO     Parsing HMM results.
+2023-11-15 04:06:53,862: INFO     Writing out sequences
+2023-11-15 04:06:55,183: INFO     ITSxpress ran in 00:01:31
+1.0

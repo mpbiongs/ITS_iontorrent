@@ -1,0 +1,5 @@
+Module	Section	Sample Name	Source
+FastQC	all_sections	subseq2_16s_L001_R2_001	/home/asum/illumina_nextflow/qc/subseq2_16s_L001_R2_001_fastqc.zip
+FastQC	all_sections	subseq1_16s_L001_R2_001	/home/asum/illumina_nextflow/qc/subseq1_16s_L001_R2_001_fastqc.zip
+FastQC	all_sections	subseq2_16s_L001_R1_001	/home/asum/illumina_nextflow/qc/subseq2_16s_L001_R1_001_fastqc.zip
+FastQC	all_sections	subseq1_16s_L001_R1_001	/home/asum/illumina_nextflow/qc/subseq1_16s_L001_R1_001_fastqc.zip
