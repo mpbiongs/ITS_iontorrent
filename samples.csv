@@ -1,3 +1,10 @@
 sample,fastq_1,fastq_2
-F1-16s,s3://mp-bioinfo/test_data/subseq_its_L001_R1_001.fastq.gz,
-F2-16s,s3://mp-bioinfo/test_data/subseq2_its_L001_R1_001.fastq.gz,
+NA,s3://mp-bioinfo/sequencing/2024.0229_Ion_16s_ITS/NA_ITS_L001_R1_001.fastq.gz,
+PC2,s3://mp-bioinfo/sequencing/2024.0229_Ion_16s_ITS/PC2_ITS_L001_R1_001.fastq.gz,
+PE10ng,s3://mp-bioinfo/sequencing/2024.0229_Ion_16s_ITS/PE10ng_ITS_L001_R1_001.fastq.gz,
+PE1ng,s3://mp-bioinfo/sequencing/2024.0229_Ion_16s_ITS/PE1ng_ITS_L001_R1_001.fastq.gz,
+PE20ng,s3://mp-bioinfo/sequencing/2024.0229_Ion_16s_ITS/PE20ng_ITS_L001_R1_001.fastq.gz,
+PE2ng,s3://mp-bioinfo/sequencing/2024.0229_Ion_16s_ITS/PE2ng_ITS_L001_R1_001.fastq.gz,
+PE5ng,s3://mp-bioinfo/sequencing/2024.0229_Ion_16s_ITS/PE5ng_ITS_L001_R1_001.fastq.gz,
+PEvaz,s3://mp-bioinfo/sequencing/2024.0229_Ion_16s_ITS/PEvaz_ITS_L001_R1_001.fastq.gz,
+PEzym,s3://mp-bioinfo/sequencing/2024.0229_Ion_16s_ITS/PEzym_ITS_L001_R1_001.fastq.gz,
